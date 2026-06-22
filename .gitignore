@@ -1,0 +1,23 @@
+# Jekyll 构建产物
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler 依赖
+.bundle/
+vendor/
+Gemfile.lock  # 注意：这个要删掉这一行！Gemfile.lock 需要推送到 GitHub Pages
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志文件
+*.log
